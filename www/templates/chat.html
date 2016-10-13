@@ -1,0 +1,15 @@
+<ion-view view-title="Chat!" class="template">
+    <ion-content>
+    	<div class="container-messages">
+    		<div class="container-internal-messages">
+    			<div ng-repeat="message in messages">
+	    			{{message.nickname}}: {{message.message}};
+	    		</div>
+    		</div>
+    	</div>
+    </ion-content>
+    <div class="submit-messages">
+    	<input type="text" ng-model="data.message">
+    	<button ng-click="sendMessage()">Send</button>
+    </div>
+</ion-view>

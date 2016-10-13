@@ -1,0 +1,18 @@
+<ion-view view-title="Join Chat!" class="template">
+    <ion-content>
+    	<div class="join-container">
+    		<div class="avatar">
+    			<img ng-src="{{data.avatar}}" class="avatar">
+    			<div class="upload-photo" ng-click="uploadPhoto()">
+    				 <i class="icon ion-edit"></i>
+    			</div>
+    		</div>
+    		<div class="nickname">
+    			<label class="item item-input">
+			    	<input type="text" placeholder="nickname" ng-model="data.nickname">
+			  	</label>
+    			<button class="button button-block button-positive" ng-click="joinChat()">Join</button>
+    		</div>
+    	</div>  
+    </ion-content>
+</ion-view>

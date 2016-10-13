@@ -1,0 +1,66 @@
+/* Empty. Add your own CSS if you like */
+
+.template {
+	background: #4e535a;
+}
+
+/**** Join Chat ****/
+.join-container {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 240px;
+    margin-left: -125px;
+    margin-top: -120px;
+}
+
+.avatar {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto 10px;
+	border-radius: 100%;
+	position: relative;
+}
+
+.upload-photo {
+	position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    bottom: 0;
+    background: #387ef5;
+    border-radius: 100%;
+}
+.upload-photo i {
+    position: relative;
+    left: 9px;
+    top: 6px;
+    color: #fff;
+}
+
+
+/**** Join Chat ****/
+.container-messages {
+	height: calc(100% - 40px);
+	position: relative;
+}
+
+.container-internal-messages {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.submit-messages {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	bottom: 0;
+}
+
+.submit-messages input , .submit-messages button{
+	display: inline-block;
+	width: 49%;
+}
